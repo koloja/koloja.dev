@@ -36,7 +36,7 @@ on load:
   import.skAPI("skAPI::*") # skAPI::* is the variable we are binding the info to. 
 
 on unload:
-  delete skAPI::*
+  delete {skAPI::*}
 
 command /skapi:info [<string>]:
   trigger:
