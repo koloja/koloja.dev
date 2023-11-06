@@ -26,8 +26,7 @@ send "credits - %{_js::credits}%"
 
 ```
 
-You can also download the skAPI skript from the file skAPI.sk
-[skAPI skript](ect/skAPI.sk)
+You can also download the skAPI skript from the file [skAPI.sk](ect/skAPI.sk)
 
 Some examples are:
 
