@@ -1,12 +1,6 @@
 # koloja.github.io
 
 
-## Table of Contents
-
-- [What is skAPI](#skAPI)
-- [Features](#Features)
-- [Usage](#Usage)
-
 ## skAPI
 
 skAPI is a small API meant for skript to do some small things like preview your head in chat.
