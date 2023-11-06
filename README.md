@@ -1,31 +1,36 @@
 # koloja.github.io
 
-A brief description of your project.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [What is skAPI](#skAPI)
+- [Features](#Features)
+- [Usage](#Usage)
 
-## Introduction
+## skAPI
 
-Provide a short introduction to your project. Explain what it does and why it's useful.
+skAPI is a small API meant for skript to do some small things like preview your head in chat.
+Get requests, Dad Jokes and more basic API things.
 
 ## Features
 
 List the key features of your project. You can use bullet points for this section.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- headAPI
+- Info Requests
+- Jokes (soon)
 
-## Installation
+## Usage
 
-Explain how to install your project. You can include code snippets if necessary.
+In your .sk file put some code like this
+
+```js
+set {_info} to text from "koloja.github.io/api/info"
+map json {_info} to {_js::*}
+send "version - %{_js::version}%"
+send "credits - %{_js::credits}%"
+
+```
 
 ```bash
 npm install my-project
