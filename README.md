@@ -26,5 +26,20 @@ send "credits - %{_js::credits}%"
 
 ```
 
-```bash
-npm install my-project
+You can also download the skAPI skript from the file skAPI.sk
+[skAPI skript](ect/skAPI.sk)
+
+Some examples are:
+
+```js
+on load:
+  import.skAPI("skAPI::*") # skAPI::* is the variable we are binding the info to. 
+
+on unload:
+  delete skAPI::*
+
+command /skapi:info [<string>]:
+  trigger:
+    send "version - %{skAPI::version}%"
+    send "credits - %{skAPI::credits}%"
+```
