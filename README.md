@@ -1,5 +1,7 @@
 # koloja.github.io
 
+A simple webpage by koloja
+Coded of the [znci website](https://znci.dev/)
 
 ## skAPI
 
