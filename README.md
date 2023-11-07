@@ -1,4 +1,5 @@
 # koloja.github.io
 
 A simple webpage by koloja.<br>
-Coded of the [znci website](https://znci.dev/)
+Base code edited from the [znci website](https://znci.dev/)<br>
+**Edited alot**
