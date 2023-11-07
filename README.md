@@ -1,2 +1,1 @@
-# kocdi.github.io
-The kocdi website
+# koloja.github.io
