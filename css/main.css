@@ -1,0 +1,79 @@
+@import url(https://fonts.bunny.net/css?family=fira-mono:400,500,700|inter:100,200,300,400,500,600,700,800,900|manrope:200,300,400,500,600,700,800);
+
+:root {
+    --background: #26272c;
+    --container: #1a1d21;
+    --container-sec: #121417;
+    --text: #d6d6d6;
+    --accent-hue: #4287f5;
+    --accent: hsl(var(--accent-hue), 100%, 60%);
+    --font: "Manrope", sans-serif;
+    --font-size: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: var(--font-size);
+    height: 100%;
+}
+
+b, .accent {
+    color: var(--accent);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 2px;
+    left: 1px;
+    display: flex;
+    gap: 0px;
+}
+
+.button-container .button {
+    padding: 0.25em 1em;
+    border-radius: 6px;
+    background-color: var(--bg-success);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-container .button:hover {
+    background-color: var(--bg-success-hover);
+}
+
+b {
+    color: #4287f5;
+}
