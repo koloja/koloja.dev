@@ -29,6 +29,10 @@ b, .accent {
     color: var(--accent);
 }
 
+body {
+    background: radial-gradient(ellipse at top , #080e21 0%,  #1b2735 95%) !important;
+}
+
 /* Starry background CSS */
 $shadow: ();
 
