@@ -1,6 +1,6 @@
 # koloja.github.io
 
-A simple webpage by koloja
+A simple webpage by koloja\n
 Coded of the [znci website](https://znci.dev/)
 
 ## skAPI
