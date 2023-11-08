@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenal</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .centered-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--text);
+        }
+        o {
+            color: var(--accent);
+        }
+    </style>
 </head>
 <body>
     <canvas id="bgCanvas"></canvas>
     <script src="js/main.js"></script>
 
+    <div class="section-title" id="content">
+        <h1><o>koloja</o></h1>
+        <p>Soon.</p>
+    </div>
+
     <script>
-        if (window.location.pathname === 'arsenal') {
-            fetch('arsenal.html')
+        var urlPath = window.location.pathname;
+        if (urlPath === "/arsenal") {
+            fetch("arsenal.html")
                 .then(response => response.text())
                 .then(data => {
-                    document.body.innerHTML = data;
+                    document.getElementById("content").innerHTML = data;
                 })
                 .catch(error => {
-                    console.error('Error loading arsenal.html', error);
+                    console.error("Error loading arsenal.html: " + error);
                 });
         }
     </script>

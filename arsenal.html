@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenal</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Inter", sans-serif;
+            background-color: var(--background);
+            color: var(--text);
         }
         h1 {
             font-weight: bold;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
         }
         p {
-            font-weight: bold;
-            font-size: 24px;
-            margin-top: 5px;
+            font-weight: 400;
+            font-size: 18px;
+            margin-top: 10px;
+            text-align: center;
         }
         .centered-text {
             text-align: center;
@@ -21,10 +30,10 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: lightgray;
+            color: var(--text);
         }
         o {
-            color: #0058a0;
+            color: var(--accent);
         }
     </style>
 </head>
@@ -32,9 +41,24 @@
     <canvas id="bgCanvas"></canvas>
     <script src="js/main.js"></script>
 
-    <div class="centered-text">
-        <h1><o>Arsenal<o></h1>
-        <p>Soon...</p>
+    <div class="section-title">
+        <h1><o>Arsenal</o></h1>
+        <p>The soon to be best gun server on CubedCraft.</p>
+    </div>
+
+    <div class="grid-3" style="margin-top: 50px;">
+        <div class="card">
+            <div class="card-title">What is Arsenal</div>
+            <p>Arsenal is a GunPVP server on the playerserver host CubedCraft. You can expect lots of gamemodes, maps, guns and fun. Even tho we are updating Arsenal right now you can still get updates from here.</p>
+        </div>
+        <div class="card">
+            <div class="card-title">When can I play Arsenal</div>
+            <p>We don't know this right now but we should be open soon, around the next month or so.</p>
+        </div>
+        <div class="card">
+            <div class="card-title">Where do I play Arsenal</div>
+            <p>You will be able to play Arsenal on mc.cubedcraft.com, Join via that IP and run the command '/join arsenal'. If the server is offline wait for it to boot and there you go. Or you can join via the IP arsenal.playerservers.com if its online.</p>
+        </div>
     </div>
 </body>
 </html>
