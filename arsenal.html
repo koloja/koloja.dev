@@ -89,11 +89,6 @@
             .then(data => {
                 updateServerInfo(data);
             })
-            .catch(error => {
-                console.error('Error:', error);
-                const serverInfoList = document.getElementById('server-info');
-                serverInfoList.innerHTML = '<li>Error fetching server info</li>';
-            });
     </script>
 </body>
 </html>
