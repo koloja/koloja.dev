@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131313;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-area {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 100px rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    height: 750px;
+    outline: 1px solid #5a5a5a;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #dddddd;
+}
