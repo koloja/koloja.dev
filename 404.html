@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #202124ff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 53vh;
+    }
+
+    .text-container {
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #abababff;
+      font-size: 1.5em;
+      font-weight:  normal;
+      line-height: 1.25em;
+      margin-bottom: 16px;
+    }
+
+    strong {
+      color: #9aa0a6ff;
+      font-weight: bold;
+    }
+
+    p {
+      color: #abababff;
+      margin: 10px 0;
+      font-size: 0.9em;
+    }
+	
+	c {
+      color: #abababff;
+      margin: 10px 0;
+      font-size: 0.6em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="text-container">
+    <img src="./error-icon.png" alt="Error Icon">
+    <h1>This site can’t be reached</h1>
+    <p>The webpage at <strong><span id="subdomain"></span></strong> might be temporarily down or it may have moved permanently to a new web address.</p>
+    <c>ERR_NOT_FOUND</c>
+  </div>
+
+  <script>
+    var currentSubdomain = window.location.pathname.split('/')[1];
+    document.getElementById('subdomain').innerText = '/' + currentSubdomain;
+  </script>
+</body>
+</html>
