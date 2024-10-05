@@ -34,6 +34,7 @@ console.log(`${tab}${hex('#b42ff1')('ViteJS')} ${hex('#767676')(`Intermediate`)}
 console.log(`${tab}${hex('#e99921')('JAVA')} ${hex('#767676')(`Basic`)}`);
 console.log(`${tab}${hex('#6195cb')('C')} ${hex('#767676')(`Learning`)}`);
 console.log(`${tab}${hex('#4588b9')('GD-SCRIPT')} ${hex('#767676')(`Learning`)}`);
+console.log(`${tab}${hex('#95181b')('WEBGL')} ${hex('#767676')(`Learning`)}`);
 console.log('\n');
 console.log('\n');
 console.log(hex('#ff28df')(bold('LINKS')));
