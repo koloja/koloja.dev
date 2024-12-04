@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Geist Mono', monospace;
+}
+
+body {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 1rem;
+    color: #222222;
+}
+
+button {
+    border: #222222 solid .15rem;
+    width: 6.6rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    box-shadow: .3rem .3rem 0 #222222;
+}
+button:active {
+    transform: translateX(.15rem) translateY(.15rem);
+    box-shadow: .15rem .15rem 0 #222222;
+}
+b {background-color: #68ca7a; padding: 0 .1rem}
